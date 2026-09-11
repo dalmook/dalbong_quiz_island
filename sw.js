@@ -1,5 +1,5 @@
 const BASE=new URL(self.registration.scope).pathname;
-const VERSION='dalbong-quiz-island-72c6bed88e5e';const CACHE=VERSION+'-static';
+const VERSION='dalbong-quiz-island-9bb0320cca76';const CACHE=VERSION+'-static';
 const local=path=>BASE+path.replace(/^\//,'');
 const CORE=['','icon.svg','manifest.webmanifest',...['mori','lulu','komi'].flatMap(p=>[0,1,2].map(s=>`renders/${p}-${s}.png`))].map(local);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));

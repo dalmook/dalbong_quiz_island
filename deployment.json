@@ -1,7 +1,11 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
-  "publicSignup": false
+  "publicSignup": false,
+  "design": "arcade",
+  "guardianLinkUI": false,
+  "phoneLogin": false,
+  "publicRankedEntry": false
 }
