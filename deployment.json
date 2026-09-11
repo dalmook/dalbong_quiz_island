@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.1",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -7,5 +7,11 @@
   "design": "arcade",
   "guardianLinkUI": false,
   "phoneLogin": false,
-  "publicRankedEntry": false
+  "publicRankedEntry": false,
+  "practiceContentRelease": "2026-09-11-full-grades",
+  "practiceQuestions": 1860,
+  "practiceCombinations": 216,
+  "practiceAllLevels": true,
+  "layout": "single-screen",
+  "viewportFit": true
 }
