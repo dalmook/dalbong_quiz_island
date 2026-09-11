@@ -1,5 +1,5 @@
 {
-  "version": "0.4.1",
+  "version": "0.5.0",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -13,5 +13,14 @@
   "practiceCombinations": 216,
   "practiceAllLevels": true,
   "layout": "single-screen",
-  "viewportFit": true
+  "viewportFit": true,
+  "phoneVerification": false,
+  "passwordRequired": true,
+  "selfSignupMinAge": 14,
+  "rankingClass": "practice-beta",
+  "streaks": true,
+  "streakDayBoundary": "06:00 Asia/Seoul",
+  "playerAccountsImplemented": true,
+  "accountActivation": "pending-operator-secret",
+  "accountAvailabilityEndpoint": "/api/player/config"
 }
