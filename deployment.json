@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -31,5 +31,23 @@
   "guardianVerificationByService": false,
   "bgmTracks": 6,
   "bgmMode": "scene-or-playlist",
-  "operatorSecretChanged": false
+  "operatorSecretChanged": false,
+  "freeLevelRanking": true,
+  "gameExpansion": true,
+  "basicSpecies": 100,
+  "evolutionForms": 320,
+  "serverCollection": true,
+  "asyncBattles": true,
+  "wrongAnswerBoss": true,
+  "resonanceEggs": true,
+  "cooperativeRaid": true,
+  "streakJourney": true,
+  "rarityDistribution": {
+    "common": 40,
+    "rare": 30,
+    "epic": 20,
+    "legendary": 10
+  },
+  "proceduralOriginalBlenderAssets": true,
+  "allFormsHumanArtApproved": false
 }
