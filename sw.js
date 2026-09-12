@@ -1,7 +1,7 @@
 const BASE=new URL(self.registration.scope).pathname;
-const VERSION='dalbong-quiz-island-ad365daf7a44';const CACHE=VERSION+'-static',MODELS=VERSION+'-creatures',THUMBS=VERSION+'-thumbs';
+const VERSION='dalbong-quiz-island-528b3427412e';const CACHE=VERSION+'-static',MODELS=VERSION+'-creatures',THUMBS=VERSION+'-thumbs';
 const local=path=>BASE+path.replace(/^\//,'');
-const CORE=['','icon.svg','manifest.webmanifest',...['mori','lulu','komi'].flatMap(p=>[0,1,2].map(s=>`renders/${p}-${s}.png`))].map(local);
+const CORE=['','icon.svg','manifest.webmanifest',...['mori','lulu','komi'].map(p=>`assets/creatures2d/v5/icons/${p}-0.webp`)].map(local);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
 self.addEventListener('message',e=>{if(e.data?.type==='ACTIVATE')self.skipWaiting();});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('dalbong-quiz-island-')&&![CACHE,MODELS,THUMBS].includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
