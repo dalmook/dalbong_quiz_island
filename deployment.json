@@ -1,5 +1,5 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -51,9 +51,16 @@
   "proceduralOriginalBlenderAssets": true,
   "allFormsHumanArtApproved": false,
   "characterArt2d": true,
-  "characterArt2dCoreSpecies": 24,
+  "characterArt2dCoreSpecies": 100,
   "characterNamingSpecies": 100,
   "defaultCreatureView": "2d",
   "explicit3dDetail": true,
-  "art2dHumanReviewComplete": false
+  "art2dHumanReviewComplete": false,
+  "characterArt2dForms": 320,
+  "characterArt2dSource": "original-vector-paths",
+  "characterArt2dResolution": 1024,
+  "characterArt2dSafeMargin": 0.12,
+  "characterArt2dVariantFiles": 1600,
+  "lobbyDefaultView": "2d",
+  "allDefaultCharacterViews": "2d"
 }
