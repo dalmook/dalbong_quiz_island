@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -49,5 +49,11 @@
     "legendary": 10
   },
   "proceduralOriginalBlenderAssets": true,
-  "allFormsHumanArtApproved": false
+  "allFormsHumanArtApproved": false,
+  "characterArt2d": true,
+  "characterArt2dCoreSpecies": 24,
+  "characterNamingSpecies": 100,
+  "defaultCreatureView": "2d",
+  "explicit3dDetail": true,
+  "art2dHumanReviewComplete": false
 }
