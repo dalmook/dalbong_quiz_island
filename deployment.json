@@ -1,5 +1,5 @@
 {
-  "version": "0.9.2",
+  "version": "0.9.3",
   "characterPresentationRevision": "saved-source-v5-no-model",
   "characterReferenceSpeciesConnected": 0,
   "characterReferenceFormsConnected": 0,
@@ -89,5 +89,10 @@
   "characterArt2dMaxResolution": 1024,
   "characterVariantCount": 2240,
   "characterSourceUpscaling": false,
-  "externalModelCallsThisRelease": 0
+  "externalModelCallsThisRelease": 0,
+  "artBoundaryRevision": "eluna-coverage-v6",
+  "elunaEdgeProcessing": "source-preserving-alpha-closure",
+  "standaloneArtUpgradeRemaining": 28,
+  "newStandaloneArtThisRelease": 0,
+  "actualHandsetVerification": false
 }

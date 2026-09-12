@@ -1,5 +1,5 @@
 const BASE=new URL(self.registration.scope).pathname;
-const VERSION='dalbong-quiz-island-528b3427412e';const CACHE=VERSION+'-static',MODELS=VERSION+'-creatures',THUMBS=VERSION+'-thumbs';
+const VERSION='dalbong-quiz-island-8ea17cc62dae';const CACHE=VERSION+'-static',MODELS=VERSION+'-creatures',THUMBS=VERSION+'-thumbs';
 const local=path=>BASE+path.replace(/^\//,'');
 const CORE=['','icon.svg','manifest.webmanifest',...['mori','lulu','komi'].map(p=>`assets/creatures2d/v5/icons/${p}-0.webp`)].map(local);
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
