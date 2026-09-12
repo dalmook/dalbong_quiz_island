@@ -1,5 +1,10 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
+  "characterPresentationRevision": "reference-framing-2",
+  "characterReferenceSpeciesConnected": 0,
+  "characterReferenceFormsConnected": 0,
+  "fullReferenceArtRequestCompleted": false,
+  "characterPresentationRequiresFreshVerification": true,
   "cloudUrl": "https://dalbong-quiz-island.sungmookcho3341.workers.dev",
   "cloudConnected": true,
   "mode": "preview",
@@ -57,10 +62,21 @@
   "explicit3dDetail": true,
   "art2dHumanReviewComplete": false,
   "characterArt2dForms": 320,
-  "characterArt2dSource": "original-vector-paths",
+  "characterArt2dSource": "mixed-reference-illustrations-and-preserved-vector-compatibility",
   "characterArt2dResolution": 1024,
   "characterArt2dSafeMargin": 0.12,
   "characterArt2dVariantFiles": 1600,
   "lobbyDefaultView": "2d",
-  "allDefaultCharacterViews": "2d"
+  "allDefaultCharacterViews": "2d",
+  "characterReferenceArtSpecies": 12,
+  "characterReferenceArtForms": 37,
+  "characterReferenceVectorCompatibilityForms": 283,
+  "referenceArtSourceManifestSha256": "66650cd767a9eeaf1b89af5a3f28c518a2be0ad4f0af818fb6e1ee35329fb7f1",
+  "referenceArtAll100SpeciesComplete": false,
+  "referenceArtNativeNote": "1024px transparent presentation exports from original generated sheets; not claimed to be1024px native standalone source drawings.",
+  "referenceRejectedForms": [
+    "eluna-1"
+  ],
+  "artworkViewer2d": true,
+  "evolutionBeforeAfter2d": true
 }
